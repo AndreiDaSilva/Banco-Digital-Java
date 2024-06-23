@@ -1,7 +1,5 @@
 package BancoDio;
 
-import java.util.Random;
-
 public abstract class Conta implements IConta {
     private static int proximaConta = 1000;
     private Banco banco;
